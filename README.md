@@ -5,29 +5,29 @@ El mismo se encuentra configurado para correr sobre localhost, con MySql.
 
 ## Settings:
 
-Puerto de Rest API: 3000
+Puerto de Rest API: 3000\
 Puerto MySql: 3306
 
 ## Configuracion SQL
 
-cliente
-    - nro_cliente
-    - Nombre
-    - Apellido
+cliente\
+    - nro_cliente\
+    - Nombre\
+    - Apellido\
     - email
 
-cuenta
-    - nro_cuenta
-    - nro_cliente
-    - saldo
+cuenta\
+    - nro_cuenta\
+    - nro_cliente\
+    - saldo\
     - tipo_de_cuenta
 
-transferencia
-    - id_transferencia
-    - nro_cliente
-    - cuenta_origen
-    - cuenta_destino
-    - monto
+transferencia\
+    - id_transferencia\
+    - nro_cliente\
+    - cuenta_origen\
+    - cuenta_destino\
+    - monto\
     - fecha_creacion
 
 ## Instrucciones de instalacion:
