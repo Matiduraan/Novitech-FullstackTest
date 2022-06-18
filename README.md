@@ -8,6 +8,28 @@ El mismo se encuentra configurado para correr sobre localhost, con MySql.
 Puerto de Rest API: 3000
 Puerto MySql: 3306
 
+## Configuracion SQL
+
+cliente
+    - nro_cliente
+    - Nombre
+    - Apellido
+    - email
+
+cuenta
+    - nro_cuenta
+    - nro_cliente
+    - saldo
+    - tipo_de_cuenta
+
+transferencia
+    - id_transferencia
+    - nro_cliente
+    - cuenta_origen
+    - cuenta_destino
+    - monto
+    - fecha_creacion
+
 ## Instrucciones de instalacion:
 
 Ingresar a la carpeta web-app desde un terminal y ejecutar `npm install`.
